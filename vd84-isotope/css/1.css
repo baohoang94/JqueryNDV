@@ -1,0 +1,20 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.conten {
+	width: 90%;
+	margin: auto;
+	margin-top: 100px;
+}
+
+.conten ul li {
+	float: left;
+	width: 25%;
+	list-style: none;
+}
+
+.conten ul li img {
+	width: 100%;
+}

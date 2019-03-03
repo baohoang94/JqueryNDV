@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.conten {
+	width: 90%;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.conten ul li {
+	float: left;
+	width: 25%;
+	list-style: none;
+	height: 300px;
+	overflow: hidden;
+}
+
+.conten ul li img {
+	max-width: 400px;
+}
+
+#header {
+	text-align: center;
+	padding-top: 100px;
+}
+#header ul li {
+	display: inline-block;
+	list-style: none;
+	padding: 20px;
+}
+
+#header ul li a {
+	text-decoration: none;
+	font-family: segoe ui light;
+	background-color: pink;
+}
+
+section {
+	text-align: center;
+}

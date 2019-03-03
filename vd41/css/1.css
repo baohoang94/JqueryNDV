@@ -1,0 +1,165 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One');
+.nut {
+    font-family: 'Leckerli One', cursive;
+    position: absolute;
+    top: 49%;
+    left: 12%;
+    color: blue;
+    background: #fff;
+    padding: 1%;
+    border-radius: 11px;
+    opacity: 0;
+    animation: dilen 1s forwards;
+    animation-delay: 3.5s;
+}
+
+.chuto {
+    position: absolute;
+    top: 27%;
+    left: 12%;
+    color: #fff;
+    font-size: 30px;
+    width: 33%;
+    font-family: 'Leckerli One', cursive;
+    opacity: 0;
+    -webkit-animation: phaisang 0.6s forwards;
+    -o-animation: phaisang 0.6s forwards;
+    animation: phaisang 0.6s forwards;
+    animation-delay: 3s;
+}
+
+@-webkit-keyframes phaisang {
+	from { opacity: 0; transform: translateX(100px); }
+	to { opacity: 1; transform: translateX(0px); }
+}
+@-o-keyframes phaisang {
+	from { opacity: 0; transform: translateX(100px); }
+	to { opacity: 1; transform: translateX(0px); }
+}
+@-moz-keyframes phaisang {
+	from { opacity: 0; transform: translateX(100px); }
+	to { opacity: 1; transform: translateX(0px); }
+}
+@keyframes phaisang {
+	from { opacity: 0; transform: translateX(100px); }
+	to { opacity: 1; transform: translateX(0px); }
+}
+
+img.hoatiet3 {
+    position: absolute;
+    bottom: 8%;
+    right: 12%;
+    opacity: 0;
+    -webkit-animation: phonglen 0.6s forwards;
+    -o-animation: phonglen 0.6s forwards;
+    animation: phonglen 0.6s forwards;
+    animation-delay: 2.6s;
+}
+
+img.hoatiet2 {
+    position: absolute;
+    bottom: 45%;
+    right: 19%;
+    opacity: 0;
+    -webkit-animation: phonglen 0.6s forwards;
+    -o-animation: phonglen 0.6s forwards;
+    animation: phonglen 0.6s forwards;
+    animation-delay: 2s;
+}
+
+img.hoatiet1 {
+    position: absolute;
+    bottom: 36%;
+    left: 49%;
+    opacity: 0;
+    -webkit-animation: phonglen 0.6s forwards;
+    -o-animation: phonglen 0.6s forwards;
+    animation: phonglen 0.6s forwards;
+    animation-delay: 1.6s;
+}
+
+@-webkit-keyframes phonglen {
+	from { opacity: 0; transform: scale(.4); }
+	to { opacity: 1; transform: scale(1); }
+}
+@-o-keyframes phonglen {
+	from { opacity: 0; transform: scale(.4); }
+	to { opacity: 1; transform: scale(1); }
+}
+@-moz-keyframes phonglen {
+	from { opacity: 0; transform: scale(.4); }
+	to { opacity: 1; transform: scale(1); }
+}
+@keyframes phonglen {
+	from { opacity: 0; transform: scale(.4); }
+	to { opacity: 1; transform: scale(1); }
+}
+
+img.dammay {
+    position: absolute;
+    z-index: 3;
+    left: 0%;
+    bottom: 0%;
+    overflow: hidden;
+    max-width: 100%;
+    opacity: 0;
+    animation: dilen 1s forwards;
+}
+
+@-webkit-keyframes dilen {
+	from { opacity: 0; transform: translateY(300px); }
+	to { opacity: 1; transform: translateY(0); }
+}
+@-o-keyframes dilen {
+	from { opacity: 0; transform: translateY(300px); }
+	to { opacity: 1; transform: translateY(0); }
+}
+@-moz-keyframes dilen {
+	from { opacity: 0; transform: translateY(300px); }
+	to { opacity: 1; transform: translateY(0); }
+}
+@keyframes dilen {
+	from { opacity: 0; transform: translateY(300px); }
+	to { opacity: 1; transform: translateY(0); }
+}
+
+img.embe {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 15%;
+    opacity: 0;
+    -webkit-animation: embelen 1s forwards;
+    -o-animation: embelen 1s forwards;
+    animation: embelen 1s forwards;
+    animation-delay: 1s;
+}
+
+@-webkit-keyframes embelen {
+	from { opacity: 0; transform: translateY(100px); }
+	to { opacity: 1; transform: translateY(0px); }
+}
+@-o-keyframes embelen {
+	from { opacity: 0; transform: translateY(100px); }
+	to { opacity: 1; transform: translateY(0px); }
+}
+@-moz-keyframes embelen {
+	from { opacity: 0; transform: translateY(100px); }
+	to { opacity: 1; transform: translateY(0px); }
+}
+@keyframes embelen {
+	from { opacity: 0; transform: translateY(100px); }
+	to { opacity: 1; transform: translateY(0px); }
+}
+
+header.to {
+    height: 700px;
+    position: relative;
+    background: url(E:/Learn/Jquery/vd38/images/nen.jpg);
+    background-size: cover;
+    overflow: hidden;
+}

@@ -1,0 +1,47 @@
+*{ margin: 0; padding: 0; }
+#home {
+    width: 100%;
+    height: 868px;
+    background: url("../images/banner.jpg") no-repeat center;
+    background-size: cover;
+}
+#home h1 {
+    color: #fff;
+    font-size: 100px;
+    font-weight: bold;
+    padding: 100px;
+}
+#menutren {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#menutren ul{
+    border-bottom: 3px solid #fff;
+    padding: 19px;
+    text-align: right;
+    background-color: rgba(0,255,255,.5);
+}
+#menutren ul li {
+    display: inline-block;
+}
+#menutren ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-block;
+    padding: 0 10px;
+}
+.zom {
+    width: 570px;
+    height: 320px;
+    overflow: hidden;
+    margin-bottom: 9px;
+}
+.zom img {
+    transition: .4s;
+}
+.zom:hover img {
+    transform: scale(1.5);
+    cursor: pointer;
+}

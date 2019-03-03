@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img.anhnho {
+    float: left;
+    height: 86px;
+    margin-right: 10px;
+}
+
+.noidung {
+    width: 37%;
+    margin: auto;
+    font-family: 'Josefin Slab', serif;
+}
+
+.ndkhoi {
+    color: gray;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.tdkhoi img {
+    transition: .4s;
+    float: right;
+    margin-right: -100px;
+}
+
+h1.tdkhoi {
+    height: 38px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: .4s;
+}
+
+h1.tdkhoi:hover {
+    color: #39b3dad9;
+}
+
+h1.tdkhoi:hover img {
+    margin-right: 0;
+}
+
+._1khoi {
+    border-bottom: 1px solid #8080807a;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.vaicaianh {
+    overflow: hidden;
+}
+
+body {
+    background: url(../images/bg.png);
+}
+
+h1.tieude {
+    font-family: 'Josefin Slab', serif;
+    font-size: 37px;
+    font-weight: 100;
+    text-align: center;
+    margin: 17px 0;
+    margin-bottom: 100px;
+}
+
+.tdkhoi.xanh {
+	color: lightblue;
+}
+
+h1.tdkhoi.xanh img {
+	margin-right: 0;
+	transform: rotate(180deg);
+}

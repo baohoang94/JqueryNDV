@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.noidung {
+    background: lightblue;
+    width: 45%;
+    padding: 40px 60px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    perspective: 1000px;
+}
+
+img.anhdemo {
+    width: 400px;
+    transform: rotateX(180deg);
+    transition: 3s;
+    transform-origin: 0 100%;
+}
+

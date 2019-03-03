@@ -1,0 +1,38 @@
+*{margin:0;padding:0; }
+ 
+.menutren {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	background-color: rgba(0, 0, 0, .80);
+	text-align: center;
+}
+
+.menutren a {
+	padding: 10px;
+	color: #fff;
+}
+
+#so1 {
+	padding-top: 50px;
+	background-color: #1abc9c;
+}
+
+#so2 {
+	background-color: #9b59b6;
+}
+#so3 {
+	background-color: #e74c3c;
+}
+#so4 {
+	background-color: #3498db;
+}
+#so5 {
+	background-color: #f39c12;
+}
+
+.menutren li.active a {
+	background-color: lightblue;
+	color: black;
+}

@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.menu {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    width: 898px;
+    height: 55px;
+    z-index: 2;
+    background: #fff;
+    opacity: 0;
+    animation: hienra 1s forwards;
+    animation-delay: 3s;
+}
+
+.chuto, .chutnho {
+    position: absolute;
+    top: 41%;
+    left: 21%;
+    font-size: 30px;
+    font-family: segoe ui light;
+    transition: .4s;
+    opacity: 0;
+    animation: divao 1s forwards;
+    animation-delay: 2s;
+}
+
+@-webkit-keyframes divao {
+	from { transform: translateX(-600px); opacity: 0; }
+	to { transform: translateX(0); opacity: 1; }
+}
+@-o-keyframes divao {
+	from { transform: translateX(-600px); opacity: 0; }
+	to { transform: translateX(0); opacity: 1; }
+}
+@-moz-keyframes divao {
+	from { transform: translateX(-600px); opacity: 0; }
+	to { transform: translateX(0); opacity: 1; }
+}
+@keyframes divao {
+	from { transform: translateX(-600px); opacity: 0; }
+	to { transform: translateX(0); opacity: 1; }
+}
+.chutnho {
+    top: 47%;
+    font-size: 16px;
+    width: 400px;
+    text-align: center;
+    left: 14%;
+    transition: .4s;
+    animation-delay: 2.5s;
+}
+
+img.cogai {
+    position: absolute;
+    bottom: -700;
+    right: 22%;
+    transition: .4s;
+    animation: cogai 1s forwards;
+    animation-delay: 1.4s;
+    opacity: 0;
+}
+
+@-webkit-keyframes cogai {
+	from { bottom: -700px; opacity: 1; }
+	to { bottom: 0; opacity: 1; }
+}
+@-o-keyframes cogai {
+	from { bottom: -700px }
+	to { bottom: 0 }
+}
+@-moz-keyframes cogai {
+	from { bottom: -700px }
+	to { bottom: 0 }
+}
+@keyframes cogai {
+	from { bottom: -700px; opacity: 1; }
+	to { bottom: 0; opacity: 1; }
+}
+.anhnen {
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    top: 0;
+    left: 0;
+    background: url(../images/phong.jpg);
+    background-size: cover;
+    transition: .4s;
+    opacity: 0;
+    animation: hienra 1s forwards;
+}
+
+@-webkit-keyframes hienra {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+@-o-keyframes hienra {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+@-moz-keyframes hienra {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+@keyframes hienra {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+header.phantren {
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.nut {
+    position: absolute;
+    top: 58%;
+    left: 25%;
+    background: #13bfb1;
+    color: #fff;
+    padding: 9px;
+    font-family: segoe ui light;
+    border-radius: 5px;
+    opacity: 0;
+    animation: hienra 1s forwards;
+    animation-delay: 3s;
+}
